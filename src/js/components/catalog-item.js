@@ -16,7 +16,6 @@ export default (props) => {
 			<p>{ props.item.cost }</p>
 			<CartButton handler = {
 				AppActions.addItem.bind(null, props.item)
-
 			}
 			txt="Add To Shopping Cart"
 			/>
